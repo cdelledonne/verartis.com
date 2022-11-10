@@ -1,0 +1,180 @@
+################################################################################
+# Images
+################################################################################
+
+# Favicon
+favicon = "images/favicon.png"
+
+# Logo
+logo = "images/logo.png"
+# logo_dark = "images/logo-dark.png"
+
+# Logo width. Note: does not work with .svg file
+logo_width = "150px"
+
+# If false, will not generate WEBP version of logo
+logo_webp = true
+
+# Logo text will only show when logo is missing
+logo_text = "Ver Artis"
+
+################################################################################
+# Behavior
+################################################################################
+
+# Theme mode
+theme_switcher = false
+theme_default = "light"  # available options: light, dark, automatic
+
+# Copyright
+theme_copyright = true
+copyright = "Copyright © 2022 Ver Artis"
+
+# Contact form action (https://formspree.io)
+contact_form_action = "https://formspree.io/f/mlevarky"
+
+# Type of pages to be rendered with a blog view
+blogCategoryType = "category"
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format
+
+# Navigation button
+[navigation_button]
+enable = false
+label = "Get started"
+link = "contact/"
+
+################################################################################
+# Colors and fonts
+################################################################################
+
+[variables]
+
+# Accent color (buttons, links, icons)
+color_primary = "#1C6336"
+
+# ???
+# color_secondary = "#671B67"
+
+# Color of the background
+# body_color = "#FFF5E4"
+
+# Color of the background of alternate sections
+# light = "#FFF"
+
+# | Font        | Comments                                            |
+# | ----------- | --------------------------------------------------- |
+# | Bree+Serif  | Nice for headings, not great for body due to serifs |
+# | Viga        | Nice for headings, not great for body, too bold     |
+# | Poppins     | Nice for body                                       |
+# | Roboto+Flex | Nice for body                                       |
+
+# Go to https://fonts.google.com/ to find the font you want to use. select your
+# font and copy only the bold part from the URL. and paste it here. example:
+# "Work+Sans:wght@400;500;600"
+
+font_primary = "Bree+Serif"
+font_primary_type = "serif"  # serif/sans-serif
+font_secondary = "Roboto+Flex"
+font_secondary_type = "sans-serif"  # serif/sans-serif
+
+font_size = "24px"  # default is 16px
+font_scale = "1.125"  # default is "majorThird": 1.25
+
+################################################################################
+# Metadata
+################################################################################
+
+# Contact info
+# [contact_info]
+# email = "info@verartis.com"
+# address = ""
+# mobile = ""
+
+# SEO meta data for OpenGraph / Twitter Card
+[metadata]
+author = "Ver Artis"
+image = "images/logo.png"
+keywords = [
+  "VerArtis",
+  "Museum",
+  "City",
+  "Guided tour",
+  "Guide",
+  "Tour",
+  "Netherlands",
+]
+
+################################################################################
+# Analytics
+################################################################################
+
+# Matomo tracking: see https://matomo.org/
+[matomo]
+enable = false
+url = "" # Your matomo url
+id = ""  # Your matomo id
+
+# Baidu analytics: see https://tongji.baidu.com/
+[baidu]
+enable = false
+analytics_id = ""  # Your ID
+
+# Plausible analytics: see https://plausible.io/
+[plausible]
+enable = false
+domain = ""    # yourdomain.com
+
+# Counter analytics: see https://counter.dev/setup.html
+[counter]
+enable = false
+username = ""  # Your username
+
+# Site verifications
+[site_verification]
+google = ""    # Your verification code
+bing = ""      # Your verification code
+baidu = ""     # Your verification code
+facebook = ""  # Your verification code
+
+# Cookies
+[cookies]
+enable = false
+expire_days = 2
+content = """
+This site uses cookies.
+By continuing to using this website, you agree to their use.
+"""
+button = "I Accept"
+  
+################################################################################
+# Social media links
+################################################################################
+
+# [[social]]
+# title = "facebook"
+# icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#!"
+
+# [[social]]
+# title = "twitter"
+# icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#!"
+
+# [[social]]
+# title = "instagram"
+# icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#!"
+
+# [[social]]
+# title = "github"
+# icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#!"
+
+# [[social]]
+# title = "linkedin"
+# icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#!"

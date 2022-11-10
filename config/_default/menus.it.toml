@@ -1,0 +1,93 @@
+################################################################################
+# Main menu
+################################################################################
+
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Servizi"
+url = "servizi/"
+weight = 2
+
+[[main]]
+name = "Chi siamo"
+url = "chi-siamo/"
+weight = 3
+
+[[main]]
+name = "Contatti"
+url = "contatti/"
+weight = 4
+
+# [[main]]
+# name = "Dropdown"
+# hasChildren = true
+# weight = 5
+
+# [[main]]
+# parent = "Dropdown"
+# name = "Entry 1"
+# pre = "<i class='dropdown-icon fas fa-chart-bar'></i>"
+# post = "<small class='dropdown-subtitle'>Description for entry 1</small>"
+# url = "entry1/"
+# weight = 1
+
+# [[main]]
+# parent = "Dropdown"
+# name = "Entry 2"
+# pre = "<i class='dropdown-icon fas fa-laptop-house'></i>"
+# post = "<small class='dropdown-subtitle'>Description for entry 2</small>"
+# url = "entry2/"
+# weight = 2
+
+################################################################################
+# Footer menu
+################################################################################
+
+[[footer_left]]
+name = "Chi siamo"
+weight = 1
+url = "chi-siamo/"
+
+[[footer_left]]
+name = "Il nostro team"
+weight = 2
+url = "team/"
+
+[[footer_left]]
+name = "Storie"
+weight = 3
+url = "storie/"
+
+[[footer_middle]]
+name = "Tour al museo"
+weight = 1
+url = "servizi/"
+
+[[footer_middle]]
+name = "Tour in città"
+weight = 2
+url = "servizi/"
+
+[[footer_middle]]
+name = "Tour ad hoc"
+weight = 3
+url = "servizi/"
+
+[[footer_right]]
+name = "FAQ"
+weight = 1
+url = "faq/"
+
+[[footer_right]]
+name = "Informativa privacy"
+weight = 2
+url = "privacy/"
+
+[[footer_right]]
+name = "Termini & condizioni"
+weight = 3
+url = "condizioni/"

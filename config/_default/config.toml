@@ -1,0 +1,71 @@
+baseURL = "https://www.verartis.com/"
+title = "Ver Artis"
+theme = "bigspring"
+timeZone = "Europe/Amsterdam"
+
+# Post pagination
+paginate = "6"
+
+# Post excerpt
+summaryLength = "10"
+
+# Disqus short name (https://disqus.com)
+disqusShortname = ""
+
+# Google analytics
+googleAnalytics = "" # example : UA-123-45
+
+# If true, auto-detect Chinese/Japanese/Korean Languages in the content
+hasCJKLanguage = false
+
+# Modules
+[module]
+[module.hugoVersion]
+extended = true
+min = "0.98.0"
+
+# JPEG and WebP quality setting (default is 75)
+# See https://github.com/disintegration/imaging
+[imaging]
+quality = 100
+
+# Cache for images
+[caches]
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+# Cache for assets
+[caches.assets]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+# Markup
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+# Highlighting
+[markup.highlight]
+style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
+
+# Table of contents
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 5
+ordered = true
+
+# Media types
+[mediaTypes]
+[mediaTypes."application/manifest+json"]
+suffixes = ["webmanifest"]
+
+# Outputs
+[outputs]
+home = ["HTML", "RSS", "JSON", "WebAppManifest"]
+
+# Output formats
+[outputFormats]
+[outputFormats.WebAppManifest]
+mediaType = "application/manifest+json"
+rel = "manifest"

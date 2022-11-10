@@ -1,0 +1,37 @@
+[en]
+languageName = "En"
+languageCode = "en-US"
+contentDir = "content/english"
+weight = 1
+footer_menu_left = "Company"
+footer_menu_middle = "Services"
+footer_menu_right = "Support"
+footer_content = """
+KvK 77548175<br>
+BTW NL003206132B57<br>
+The Hague, The Netherlands
+"""
+copyright = """
+Copyright © 2022 Ver Artis |
+Powered by [Hugo](https://gohugo.io/)
+"""
+metadata.description = "Guided tours in museums and cities in the Netherlands"
+
+[it]
+languageName = "It"
+languageCode = "it-IT"
+contentDir = "content/italian"
+weight = 2
+footer_menu_left = "Azienda"
+footer_menu_middle = "Servizi"
+footer_menu_right = "Supporto"
+footer_content = """
+KvK 77548175<br>
+BTW NL003206132B57<br>
+L'Aia, Paesi Bassi
+"""
+copyright = """
+Copyright © 2022 Ver Artis |
+Powered by [Hugo](https://gohugo.io/)
+"""
+metadata.description = "Visite guidate a musei e città nei Paesi Bassi"
