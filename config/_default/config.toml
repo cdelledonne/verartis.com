@@ -18,6 +18,9 @@ googleAnalytics = "" # example : UA-123-45
 # If true, auto-detect Chinese/Japanese/Korean Languages in the content
 hasCJKLanguage = false
 
+# Disable categories and tags pages
+disableKinds = ["taxonomy", "term"]
+
 # Modules
 [module]
 [module.hugoVersion]
