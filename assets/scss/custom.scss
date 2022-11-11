@@ -7,3 +7,17 @@ body {
 .rounded-1 {
     border-radius: 0.8rem !important;
 }
+
+.navbar-brand {
+    width: 100px;
+}
+
+.navigation .navbar-light .navbar-toggler {
+    width: unset;
+    font-size: inherit;
+}
+
+.dark .navigation .navbar-light .navbar-toggler {
+    width: unset;
+    font-size: inherit;
+}

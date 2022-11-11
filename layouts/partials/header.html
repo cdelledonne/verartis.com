@@ -1,0 +1,104 @@
+<header class="navigation">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg justify-content-between navbar-light">
+            <!-- Logo -->
+            <div class="d-flex w-50">
+                <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
+                    {{ partial "logo.html" . }}
+                </a>
+            </div>
+
+            <!-- Container that is only visible on narrow screen (by (ab)using "navbar-toggler") -->
+            <div class="navbar-toggler">
+                <!-- Language selector -->
+                {{ if .IsTranslated }}
+                <select class="ms-3 border-0 d-inline-block" id="select-language" onchange="location = this.value;">
+                    {{ $siteLanguages := site.Languages}}
+                    {{ $pageLang := .Page.Lang}}
+                    {{ range .Page.AllTranslations }}
+                    {{ $translation := .}}
+                    {{ range $siteLanguages }}
+                    {{ if eq $translation.Lang .Lang }}
+                    {{ $selected := false }}
+                    {{ if eq $pageLang .Lang}}
+                    <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
+                    </option>
+                    {{ else }}
+                    <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                </select>
+                {{ end }}
+                <!-- Hamburger menu -->
+                <button class="navbar-toggler ms-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Navigation menus that collapse on narrow screen -->
+            <div id="navigation" class="collapse navbar-collapse w-100 text-center">
+                <ul class="navbar-nav mx-auto">
+                    {{ $currentPage := . }}
+                    {{ range site.Menus.main }}
+                    {{ $menuURL := .URL | absLangURL }}
+                    {{ $pageURL:= $currentPage.Permalink | absLangURL }}
+                    {{ $active := eq $menuURL $pageURL }}
+                    {{ if .HasChildren }}
+                    <li class="nav-item dropdown {{if .Params.isMenuLarge}}dropdown-lg {{end}}
+                        {{- range .Children -}}
+                        {{- $childURL := .URL | absLangURL -}}
+                        {{- $active := eq $childURL $pageURL -}}
+                        {{- if $active }}active{{ end -}}
+                        {{- end -}}">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ .Name }}
+                        </a>
+                        <ul class="dropdown-menu">
+                            {{ range .Children }}
+                            {{ $childURL := .URL | absLangURL }}
+                            {{ $active := eq $childURL $pageURL }}
+                            <li>
+                                <a class="dropdown-item {{ if $active }}active{{ end }}" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
+                                    href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Pre}}{{ .Name }}{{.Post}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </li>
+                    {{ else }}
+                    <li class="nav-item {{ if $active }}active{{ end }}">
+                        <a class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
+                            href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Name}}</a>
+                    </li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+
+            <!-- Language selector that collapses on narrow screen -->
+            <div class="justify-content-end collapse navbar-collapse w-50">
+                {{ if .IsTranslated }}
+                <select class="ms-3 border-0 d-inline-block" id="select-language" onchange="location = this.value;">
+                    {{ $siteLanguages := site.Languages}}
+                    {{ $pageLang := .Page.Lang}}
+                    {{ range .Page.AllTranslations }}
+                    {{ $translation := .}}
+                    {{ range $siteLanguages }}
+                    {{ if eq $translation.Lang .Lang }}
+                    {{ $selected := false }}
+                    {{ if eq $pageLang .Lang}}
+                    <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
+                    </option>
+                    {{ else }}
+                    <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                </select>
+                {{ end }}
+            </div>
+        </nav>
+    </div>
+</header>
