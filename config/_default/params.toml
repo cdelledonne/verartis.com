@@ -71,7 +71,7 @@ color_primary = "#1C6336"
 
 font_primary = "Bree+Serif"
 font_primary_type = "serif"  # serif/sans-serif
-font_secondary = "Roboto+Flex"  # "PT+Sans" also nice
+font_secondary = "PT+Sans"  # "Roboto+Flex" also nice
 font_secondary_type = "sans-serif"  # serif/sans-serif
 
 font_size = "24px"  # default is 16px
