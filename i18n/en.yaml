@@ -90,3 +90,6 @@
   
 - id: search_faq
   translation: Click and search FAQ..
+
+- id: thank_you_page
+  translation: thankyou

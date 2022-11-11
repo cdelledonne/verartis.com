@@ -31,8 +31,9 @@ theme_default = "light"  # available options: light, dark, automatic
 theme_copyright = true
 copyright = "Copyright © 2022 Ver Artis"
 
-# Contact form action (https://formspree.io)
-contact_form_action = "https://formspree.io/f/mlevarky"
+# Contact form action
+# contact_form_action = "https://formspree.io/f/mlevarky"
+contact_form_action = "https://formsubmit.co/13e6d85f07e95fd91d13a2979e34dbbb"
 
 # Type of pages to be rendered with a blog view
 blogCategoryType = "category"
