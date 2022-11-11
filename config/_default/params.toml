@@ -9,8 +9,9 @@ favicon = "images/favicon.png"
 logo = "images/logo.svg"
 # logo_dark = "images/logo-dark.png"
 
-# Logo width. Note: does not work with .svg file
-logo_width = "150px"
+# Logo width. Note: does not work with .svg file, in header, but works with
+# .svg file in footer
+logo_width = "100px"
 
 # If false, will not generate WEBP version of logo
 logo_webp = true
