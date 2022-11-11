@@ -13,7 +13,8 @@ The Hague, The Netherlands
 """
 copyright = """
 Copyright © 2022 Ver Artis |
-Powered by [Hugo](https://gohugo.io/)
+Banner image adapted from [Freepik](https://www.freepik.com/free-vector/architecture-historic-old-buildings-al-lineart-style-set_11447513.htm) |
+Website powered by [Hugo](https://gohugo.io/)
 """
 metadata.description = "Guided tours in museums and cities in the Netherlands"
 
@@ -32,6 +33,7 @@ L'Aia, Paesi Bassi
 """
 copyright = """
 Copyright © 2022 Ver Artis |
-Powered by [Hugo](https://gohugo.io/)
+Banner image adapted from [Freepik](https://www.freepik.com/free-vector/architecture-historic-old-buildings-al-lineart-style-set_11447513.htm) |
+Website powered by [Hugo](https://gohugo.io/)
 """
 metadata.description = "Visite guidate a musei e città nei Paesi Bassi"
