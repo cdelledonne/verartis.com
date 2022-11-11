@@ -6,7 +6,7 @@
 favicon = "images/favicon.png"
 
 # Logo
-logo = "images/logo.png"
+logo = "images/logo.svg"
 # logo_dark = "images/logo-dark.png"
 
 # Logo width. Note: does not work with .svg file
@@ -65,20 +65,13 @@ color_primary = "#1C6336"
 # Color of the background of alternate sections
 # light = "#FFF"
 
-# | Font        | Comments                                            |
-# | ----------- | --------------------------------------------------- |
-# | Bree+Serif  | Nice for headings, not great for body due to serifs |
-# | Viga        | Nice for headings, not great for body, too bold     |
-# | Poppins     | Nice for body                                       |
-# | Roboto+Flex | Nice for body                                       |
-
 # Go to https://fonts.google.com/ to find the font you want to use. select your
 # font and copy only the bold part from the URL. and paste it here. example:
 # "Work+Sans:wght@400;500;600"
 
 font_primary = "Bree+Serif"
 font_primary_type = "serif"  # serif/sans-serif
-font_secondary = "Roboto+Flex"
+font_secondary = "Roboto+Flex"  # "PT+Sans" also nice
 font_secondary_type = "sans-serif"  # serif/sans-serif
 
 font_size = "24px"  # default is 16px
