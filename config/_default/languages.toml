@@ -19,7 +19,7 @@ Website powered by [Hugo](https://gohugo.io/)
 # SEO meta data for OpenGraph / Twitter Card
 [en.metadata]
 author = "Ver Artis"
-image = "images/favicon.png"
+image = "images/logo-wb.png"
 description = "Guided tours in museums and cities in the Netherlands"
 keywords = [
   "VerArtis",
@@ -52,7 +52,7 @@ Website powered by [Hugo](https://gohugo.io/)
 # SEO meta data for OpenGraph / Twitter Card
 [it.metadata]
 author = "Ver Artis"
-image = "images/favicon.png"
+image = "images/logo-wb.png"
 description = "Visite guidate a musei e città nei Paesi Bassi"
 keywords = [
   "VerArtis",
