@@ -16,7 +16,20 @@ Copyright © 2022 Ver Artis |
 Banner image adapted from [Freepik](https://www.freepik.com/free-vector/architecture-historic-old-buildings-al-lineart-style-set_11447513.htm) |
 Website powered by [Hugo](https://gohugo.io/)
 """
-metadata.description = "Guided tours in museums and cities in the Netherlands"
+# SEO meta data for OpenGraph / Twitter Card
+[en.metadata]
+author = "Ver Artis"
+image = "images/favicon.png"
+description = "Guided tours in museums and cities in the Netherlands"
+keywords = [
+  "VerArtis",
+  "Museum",
+  "City",
+  "Guided tour",
+  "Guide",
+  "Tour",
+  "Netherlands",
+]
 
 [it]
 languageName = "It"
@@ -36,4 +49,17 @@ Copyright © 2022 Ver Artis |
 Banner image adapted from [Freepik](https://www.freepik.com/free-vector/architecture-historic-old-buildings-al-lineart-style-set_11447513.htm) |
 Website powered by [Hugo](https://gohugo.io/)
 """
-metadata.description = "Visite guidate a musei e città nei Paesi Bassi"
+# SEO meta data for OpenGraph / Twitter Card
+[it.metadata]
+author = "Ver Artis"
+image = "images/favicon.png"
+description = "Visite guidate a musei e città nei Paesi Bassi"
+keywords = [
+  "VerArtis",
+  "Museum",
+  "City",
+  "Guided tour",
+  "Guide",
+  "Tour",
+  "Netherlands",
+]

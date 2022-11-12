@@ -80,30 +80,6 @@ font_size = "24px"  # default is 16px
 font_scale = "1.125"  # default is "majorThird": 1.25
 
 ################################################################################
-# Metadata
-################################################################################
-
-# Contact info
-# [contact_info]
-# email = "info@verartis.com"
-# address = ""
-# mobile = ""
-
-# SEO meta data for OpenGraph / Twitter Card
-[metadata]
-author = "Ver Artis"
-image = "images/logo.png"
-keywords = [
-  "VerArtis",
-  "Museum",
-  "City",
-  "Guided tour",
-  "Guide",
-  "Tour",
-  "Netherlands",
-]
-
-################################################################################
 # Analytics
 ################################################################################
 
@@ -146,8 +122,14 @@ By continuing to using this website, you agree to their use.
 button = "I Accept"
   
 ################################################################################
-# Social media links
+# Contacts and social media
 ################################################################################
+
+# Contact info
+# [contact_info]
+# email = "info@verartis.com"
+# address = ""
+# mobile = ""
 
 # [[social]]
 # title = "facebook"
