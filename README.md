@@ -17,5 +17,7 @@ git submodule add file:///path/to/bigspring themes/bigspring
 To update the Hugo modules the theme depends on, run:
 
 ```sh
+hugo mod clean
 hugo mod get -u
+hugo mod tidy
 ```
