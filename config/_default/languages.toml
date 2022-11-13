@@ -3,6 +3,7 @@ languageName = "En"
 languageCode = "en-US"
 contentDir = "content/english"
 weight = 1
+title = "Ver Artis | Museum and city tours in the Netherlands"
 footer_menu_left = "Company"
 footer_menu_middle = "Services"
 footer_menu_right = "Support"
@@ -21,14 +22,11 @@ Website powered by [Hugo](https://gohugo.io/)
 author = "Ver Artis"
 image = "images/logo-wb.png"
 description = "Guided tours in museums and cities in the Netherlands"
+# Many search engines do not use meta keywords
 keywords = [
-  "VerArtis",
-  "Museum",
-  "City",
-  "Guided tour",
-  "Guide",
-  "Tour",
-  "Netherlands",
+  "Museum", "City", "Guide", "Tour",
+  "Netherlands", "The Hague", "Amsterdam", "Rotterdam",
+  "Rijksmuseum", "Mauritshuis"
 ]
 
 [it]
@@ -36,6 +34,7 @@ languageName = "It"
 languageCode = "it-IT"
 contentDir = "content/italian"
 weight = 2
+title = "Ver Artis | Visite guidate a musei e città nei Paesi Bassi"
 footer_menu_left = "Azienda"
 footer_menu_middle = "Servizi"
 footer_menu_right = "Supporto"
@@ -54,12 +53,9 @@ Website powered by [Hugo](https://gohugo.io/)
 author = "Ver Artis"
 image = "images/logo-wb.png"
 description = "Visite guidate a musei e città nei Paesi Bassi"
+# Many search engines do not use meta keywords
 keywords = [
-  "VerArtis",
-  "Museum",
-  "City",
-  "Guided tour",
-  "Guide",
-  "Tour",
-  "Netherlands",
+  "Museo", "Città", "Guida", "Tour",
+  "Paesi Bassi", "L'Aia", "Amsterdam", "Rotterdam",
+  "Rijksmuseum", "Mauritshuis"
 ]

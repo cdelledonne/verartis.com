@@ -1,5 +1,4 @@
 baseURL = "https://www.verartis.com/"
-title = "Ver Artis"
 theme = "bigspring"
 timeZone = "Europe/Amsterdam"
 
