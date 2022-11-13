@@ -52,22 +52,22 @@ feature:
     link: servizi/
   feature_item:
   - name: Tour museale
-    icon: fas fa-landmark
+    icon: fa-solid fa-landmark
     content: >
       Potrai visitare per esempio il Mauritshuis, il Rijksmuseum o il
       Kunstmuseum.
   - name: Tour cittadino
-    icon: fas fa-city
+    icon: fa-solid fa-city
     content: >
       Se vuoi prenotare un tour cittadino, potrai visitare stupende città come
       L'Aia, Delft o Rotterdam.
   - name: Tour ad hoc
-    icon: fas fa-edit
+    icon: fa-solid fa-edit
     content: >
       Tu decidi cosa vedere (città o museo) e il nostro team ti organizzerà un
       tour guidato.
   - name: Tour combinato
-    icon: fas fa-lightbulb
+    icon: fa-solid fa-lightbulb
     content: >
       Ti piacerebbe combinare una città e un museo nello stesso tour? Faccelo
       sapere.

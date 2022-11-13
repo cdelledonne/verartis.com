@@ -52,22 +52,22 @@ feature:
     link: services/
   feature_item:
   - name: Museum tour
-    icon: fas fa-landmark
+    icon: fa-solid fa-landmark
     content: >
       You can visit for instance the Mauritshuis, the Rijksmuseum or the
       Kunstmuseum.
   - name: City tour
-    icon: fas fa-city
+    icon: fa-solid fa-city
     content: >
       If you join a planned city tour, you can visit cities like The Hague,
       Delft, or Rotterdam.
   - name: Ad-hoc tour
-    icon: fas fa-edit
+    icon: fa-solid fa-edit
     content: >
       You decide which museum or city to visit and our team will arrange
       something for you.
   - name: Combined tour
-    icon: fas fa-lightbulb
+    icon: fa-solid fa-lightbulb
     content: >
       Would you like to combine a city and a museum? Let us know your
       preferences.

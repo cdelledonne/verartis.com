@@ -30,7 +30,7 @@ weight = 4
 # [[main]]
 # parent = "Dropdown"
 # name = "Entry 1"
-# pre = "<i class='dropdown-icon fas fa-chart-bar'></i>"
+# pre = "<i class='dropdown-icon fa-solid fa-chart-bar'></i>"
 # post = "<small class='dropdown-subtitle'>Description for entry 1</small>"
 # url = "entry1/"
 # weight = 1
@@ -38,7 +38,7 @@ weight = 4
 # [[main]]
 # parent = "Dropdown"
 # name = "Entry 2"
-# pre = "<i class='dropdown-icon fas fa-laptop-house'></i>"
+# pre = "<i class='dropdown-icon fa-solid fa-laptop-house'></i>"
 # post = "<small class='dropdown-subtitle'>Description for entry 2</small>"
 # url = "entry2/"
 # weight = 2
