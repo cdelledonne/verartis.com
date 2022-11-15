@@ -120,38 +120,3 @@ This site uses cookies.
 By continuing to using this website, you agree to their use.
 """
 button = "I Accept"
-  
-################################################################################
-# Contacts and social media
-################################################################################
-
-# Contact info
-# [contact_info]
-# email = "info@verartis.com"
-# address = ""
-# mobile = ""
-
-# [[social]]
-# title = "facebook"
-# icon = "fa-brands fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-# link = "#!"
-
-# [[social]]
-# title = "twitter"
-# icon = "fa-brands fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-# link = "#!"
-
-# [[social]]
-# title = "instagram"
-# icon = "fa-brands fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-# link = "#!"
-
-# [[social]]
-# title = "github"
-# icon = "fa-brands fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-# link = "#!"
-
-# [[social]]
-# title = "linkedin"
-# icon = "fa-brands fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-# link = "#!"
