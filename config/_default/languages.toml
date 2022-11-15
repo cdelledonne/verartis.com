@@ -1,5 +1,5 @@
 [en]
-languageName = "En"
+languageName = "EN"
 languageCode = "en-US"
 contentDir = "content/english"
 weight = 1
@@ -30,7 +30,7 @@ keywords = [
 ]
 
 [it]
-languageName = "It"
+languageName = "IT"
 languageCode = "it-IT"
 contentDir = "content/italian"
 weight = 2
