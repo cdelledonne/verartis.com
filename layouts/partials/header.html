@@ -8,37 +8,8 @@
                 </a>
             </div>
 
-            <!-- Container that is only visible on narrow screen (by (ab)using "navbar-toggler") -->
-            <div class="navbar-toggler">
-                <!-- Language selector -->
-                {{ if .IsTranslated }}
-                <select class="ms-3 border-0 d-inline-block" id="select-language" onchange="location = this.value;">
-                    {{ $siteLanguages := site.Languages}}
-                    {{ $pageLang := .Page.Lang}}
-                    {{ range .Page.AllTranslations }}
-                    {{ $translation := .}}
-                    {{ range $siteLanguages }}
-                    {{ if eq $translation.Lang .Lang }}
-                    {{ $selected := false }}
-                    {{ if eq $pageLang .Lang}}
-                    <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
-                    </option>
-                    {{ else }}
-                    <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
-                    {{ end }}
-                    {{ end }}
-                    {{ end }}
-                    {{ end }}
-                </select>
-                {{ end }}
-                <!-- Hamburger menu -->
-                <button class="navbar-toggler ms-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-            </div>
-
             <!-- Navigation menus that collapse on narrow screen -->
-            <div id="navigation" class="collapse navbar-collapse w-100 text-center">
+            <div id="navigation" class="collapse navbar-collapse text-center order-lg-0 order-1 w-100">
                 <ul class="navbar-nav mx-auto">
                     {{ $currentPage := . }}
                     {{ range site.Menus.main }}
@@ -76,8 +47,8 @@
                 </ul>
             </div>
 
-            <!-- Language selector that collapses on narrow screen -->
-            <div class="justify-content-end collapse navbar-collapse w-50">
+            <div class="d-flex justify-content-end order-lg-1 order-0 w-50">
+                <!-- Language selector -->
                 {{ if .IsTranslated }}
                 <select class="ms-3 border-0 d-inline-block" id="select-language" onchange="location = this.value;">
                     {{ $siteLanguages := site.Languages}}
@@ -98,6 +69,11 @@
                     {{ end }}
                 </select>
                 {{ end }}
+
+                <!-- Hamburger menu that only appears on narrow screen -->
+                <button class="navbar-toggler ms-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
         </nav>
     </div>
