@@ -70,14 +70,18 @@ color_primary = "#1C6336"
 # Go to https://fonts.google.com/ to find the font you want to use. select your
 # font and copy only the bold part from the URL. and paste it here. example:
 # "Work+Sans:wght@400;500;600"
-
 font_primary = "Bree+Serif"
 font_primary_type = "serif"  # serif/sans-serif
-font_secondary = "PT+Sans"  # "Roboto+Flex" also nice
+font_secondary = "PT+Sans:ital,wght@0,400;0,700;1,400;1,700"
 font_secondary_type = "sans-serif"  # serif/sans-serif
 
+# When font_location is "local", we need to have a stylesheet
+# (static/css/fonts.css) that provides the @font-face declarations for the
+# fonts specified above 
+font_location = "local"  # local/google
+
 font_size = "24px"  # default is 16px
-font_scale = "1.125"  # default is "majorThird": 1.25
+font_scale = "1.125"  # default is 1.25 ("majorThird")
 
 ################################################################################
 # Analytics
