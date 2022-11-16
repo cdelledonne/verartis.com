@@ -93,28 +93,6 @@ enable = false
 url = "" # Your matomo url
 id = ""  # Your matomo id
 
-# Baidu analytics: see https://tongji.baidu.com/
-[baidu]
-enable = false
-analytics_id = ""  # Your ID
-
-# Plausible analytics: see https://plausible.io/
-[plausible]
-enable = false
-domain = ""    # yourdomain.com
-
-# Counter analytics: see https://counter.dev/setup.html
-[counter]
-enable = false
-username = ""  # Your username
-
-# Site verifications
-[site_verification]
-google = ""    # Your verification code
-bing = ""      # Your verification code
-baidu = ""     # Your verification code
-facebook = ""  # Your verification code
-
 # Cookies
 [cookies]
 enable = false
