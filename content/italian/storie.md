@@ -1,5 +1,5 @@
 ---
-title: Storie | Ver Artis
+title: Storie
 subtitle: Pagina in costruzione
 description: Pagina in costruzione
 translationKey: stories

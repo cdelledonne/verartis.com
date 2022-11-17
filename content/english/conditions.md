@@ -1,5 +1,5 @@
 ---
-title: Terms & conditions | Ver Artis
+title: Terms & conditions
 subtitle: Page under construction
 description: Page under construction
 translationKey: conditions

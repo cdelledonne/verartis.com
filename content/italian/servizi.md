@@ -1,5 +1,5 @@
 ---
-title: Servizi | Ver Artis
+title: Servizi
 subtitle: Pagina in costruzione
 description: Pagina in costruzione
 translationKey: services

@@ -1,5 +1,5 @@
 ---
-title: FAQ | Ver Artis
+title: FAQ
 subtitle: Pagina in costruzione
 description: Pagina in costruzione
 translationKey: faq

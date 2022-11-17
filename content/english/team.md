@@ -1,5 +1,5 @@
 ---
-title: Our team | Ver Artis
+title: Our team
 subtitle: Page under construction
 description: Page under construction
 translationKey: team

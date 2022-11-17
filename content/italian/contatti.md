@@ -1,5 +1,5 @@
 ---
-title: Contatti | Ver Artis
+title: Contatti
 subtitle: ""
 description: Contatti
 translationKey: contact
