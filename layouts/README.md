@@ -4,3 +4,4 @@
 - `partials/header.html`: redesigned layout of header/navigation bar
 - `partials/page-header.html`: removed " | Ver Artis" from page title text
 - `partials/script.html`: allowed sourcing fonts from local folder
+- `partials/style.html`: removed `preconnect` and `dns-prefetch`
