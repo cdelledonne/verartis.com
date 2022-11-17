@@ -44,7 +44,14 @@ WebFont.load({
 WebFont.load({
     custom: {
         // Families are specified in the stylesheet, no need to explicitly list them
-        urls: ['/css/fonts.css']
+        urls: [
+            '/{{ replaceRE ":[ital,]*[ital@]*[wght@]*[0-9,;]+" "" $pf }}/css/fonts.css',
+            '/{{ replaceRE ":[ital,]*[ital@]*[wght@]*[0-9,;]+" "" $sf }}/css/fonts.css',
+            '/fontawesome/css/fontawesome.css',
+            '/fontawesome/css/brands.css',
+            '/fontawesome/css/regular.css',
+            '/fontawesome/css/solid.css',
+        ]
     },
     active: () => {sessionStorage.fontsLoaded = true}
 });

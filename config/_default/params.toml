@@ -102,3 +102,25 @@ This site uses cookies.
 By continuing to using this website, you agree to their use.
 """
 button = "I Accept"
+
+################################################################################
+# Plugins
+################################################################################
+
+# Reset array of CSS plugins, so as to not import by default those specified by
+# themes/bigspring/config.toml
+plugins.css = []
+
+# Default CSS plugins (from themes/bigspring/config.toml). We're not importing
+# Font Awesome from the theme's module because they pull the font from a CDN
+# (https://github.com/gethugothemes/hugo-modules/tree/master/icons/font-awesome)
+[[plugins.css]]
+link = "plugins/swiper/swiper-bundle.css"
+# [[params.plugins.css]]
+# link = "plugins/font-awesome/v6/brands.css"
+# [[params.plugins.css]]
+# link = "plugins/font-awesome/v6/solid.css"
+# [[params.plugins.css]]
+# link = "plugins/font-awesome/v6/regular.css"
+# [[params.plugins.css]]
+# link = "plugins/font-awesome/v6/icons.css"
