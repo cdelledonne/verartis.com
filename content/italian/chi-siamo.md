@@ -1,5 +1,5 @@
 ---
-title: Chi siamo
+title: Chi siamo | Ver Artis
 subtitle: Pagina in costruzione
 description: Pagina in costruzione
 translationKey: about
