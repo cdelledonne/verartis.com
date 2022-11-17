@@ -15,6 +15,9 @@
                     <!-- Set redirection page -->
                     <!-- <input type="hidden" name="_next" value="{{ i18n `thank_you_page` | absLangURL }}"> -->
                     <input type="hidden" name="_next" value="{{ `/` | absLangURL }}">
+                    <!-- Disable Google reCAPTCHA and enable honeypot filter -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" style="display:none">
                     <!-- Firts name -->
                     <div class="col-lg-6">
                         <label class="mb-1" for="fname">{{ i18n "fname" }} <span class="text-danger">*</span></label>
