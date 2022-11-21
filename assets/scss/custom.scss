@@ -22,3 +22,11 @@ body {
     width: unset;
     font-size: inherit;
 }
+
+.bg-primary {
+    background-color: $color-primary !important;
+}
+
+.bg-secondary {
+    background-color: $color-secondary !important;
+}
