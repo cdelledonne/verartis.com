@@ -3,9 +3,6 @@ body {
     line-height: 1.2;
 }
 
-// For feature cards
-.rounded-1 {
-    border-radius: 0.8rem !important;
 footer {
     p {
         // Make padding of paragraph text in footer the same as that for
@@ -27,6 +24,9 @@ footer {
 // Size of logo in navigation bar
 .navbar-brand {
     width: 100px;
+// Make border radius of feature cards the same as that for video containers
+.rounded-1 {
+    border-radius: 0.8rem !important;
 }
 
 // Use default width and font for language toggler in navigation bar
