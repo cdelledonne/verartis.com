@@ -6,6 +6,22 @@ body {
 // For feature cards
 .rounded-1 {
     border-radius: 0.8rem !important;
+footer {
+    p {
+        // Make padding of paragraph text in footer the same as that for
+        // clickable list elements
+        padding: 5px 0;
+    }
+    a {
+        img {
+            // Make logo in footer as tall as heading (h5)
+            height: calc(2px + 2ex + 2px) !important;
+            width: auto !important;
+            // Make parent container take only as much height as needed
+            // (https://stackoverflow.com/a/5804278/14956277)
+            display: block;
+        }
+    }
 }
 
 // Size of logo in navigation bar

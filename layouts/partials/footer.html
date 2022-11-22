@@ -1,0 +1,54 @@
+<footer class="bg-light">
+    <div class="container">
+        <div class="py-5">
+            <div class="row justify-content-center gy-4">
+                <div class="col-lg-3 col-sm-6">
+                    {{ if site.Menus.footer_left }}
+                    <div class="h5 mb-3">{{ site.Params.footer_menu_left }}</div>
+                    <ul class="list-unstyled footer-list small mb-0">
+                        {{ range site.Menus.footer_left }}
+                        <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    {{ if site.Menus.footer_middle }}
+                    <div class="h5 mb-3">{{ site.Params.footer_menu_middle }}</div>
+                    <ul class="list-unstyled footer-list small mb-0">
+                        {{ range site.Menus.footer_middle }}
+                        <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    {{ if site.Menus.footer_right }}
+                    <div class="h5 mb-3">{{ site.Params.footer_menu_right }}</div>
+                    <ul class="list-unstyled footer-list small mb-0">
+                        {{ range site.Menus.footer_right }}
+                        <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a class="d-block h5 mb-3" href="{{ site.BaseURL | relLangURL}}">
+                        {{ partial "logo.html" . }}
+                    </a>
+                    <p class="small mb-0">{{ site.Params.footer_content | markdownify }}</p>
+                    {{ with site.Params.social }}
+                    <ul class="list-inline social-icons">
+                        {{ range . }}
+                        <li class="list-inline-item"><a href="{{ .link | safeURL }}" title="{{ .title }}"><i class="{{ .icon }}"></i></a></li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="border-top border-default text-center py-4">
+            <small class="content">{{site.Params.copyright | markdownify}} {{if site.Params.theme_copyright}} | Theme by <a target="_blank" rel="noopener noreferrer" href="https://gethugothemes.com/">GetHugoThemes</a>{{end}}</small>
+        </div>
+    </div>
+</footer>
