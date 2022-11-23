@@ -4,7 +4,7 @@
             <div class="row justify-content-center gy-4">
                 <div class="col-lg-3 col-sm-6">
                     {{ if site.Menus.footer_left }}
-                    <div class="h5 mb-3">{{ site.Params.footer_menu_left }}</div>
+                    <div class="h6 mb-2">{{ site.Params.footer_menu_left }}</div>
                     <ul class="list-unstyled footer-list small mb-0">
                         {{ range site.Menus.footer_left }}
                         <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     {{ if site.Menus.footer_middle }}
-                    <div class="h5 mb-3">{{ site.Params.footer_menu_middle }}</div>
+                    <div class="h6 mb-2">{{ site.Params.footer_menu_middle }}</div>
                     <ul class="list-unstyled footer-list small mb-0">
                         {{ range site.Menus.footer_middle }}
                         <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     {{ if site.Menus.footer_right }}
-                    <div class="h5 mb-3">{{ site.Params.footer_menu_right }}</div>
+                    <div class="h6 mb-2">{{ site.Params.footer_menu_right }}</div>
                     <ul class="list-unstyled footer-list small mb-0">
                         {{ range site.Menus.footer_right }}
                         <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
@@ -33,8 +33,8 @@
                     {{ end }}
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <a class="d-block h5 mb-3" href="{{ site.BaseURL | relLangURL}}">
                         {{ partial "logo.html" . }}
+                    <a class="d-block h6 mb-2" href="{{ site.BaseURL | relLangURL}}">
                     </a>
                     <p class="small mb-0">{{ site.Params.footer_content | markdownify }}</p>
                     {{ with site.Params.social }}
