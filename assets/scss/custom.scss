@@ -19,6 +19,13 @@ footer {
             display: block;
         }
     }
+
+// Specify explitic values for underline decoration for links
+.content {
+    a {
+        text-underline-offset: 0.15rem;
+        text-decoration-thickness: 1px;
+    }
 }
 
 // Make border radius of feature cards the same as that for video containers
