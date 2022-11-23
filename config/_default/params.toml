@@ -55,10 +55,10 @@ link = "contact/"
 
 [variables]
 
-# Accent color (buttons, links, icons)
+# Primary color (buttons, links, icons)
 color_primary = "#1C6336"
 
-# [seems unused]
+# Secondary color (footer)
 color_secondary = "#710C36"
 
 # Color of the background of main sections (light theme / dark theme)
@@ -80,11 +80,11 @@ text_dark = "#222222"
 dark_text_dark = "#FFFFFF"
 
 # [seems unused]
-text_light = "#959595"
+text_light = "#CCCCCC"
 dark_text_light = "#959595"
 
 # Border of tables and footer top rule (light theme / dark theme)
-border_color = "#ECECEC"
+border_color = "#CCCCCC"
 dark_border_color = "#4E4E4E"
 
 # Color of cards (light theme / dark theme)

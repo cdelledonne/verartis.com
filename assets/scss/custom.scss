@@ -8,10 +8,12 @@ footer {
         // Make padding of paragraph text in footer the same as that for
         // clickable list elements
         padding: 5px 0;
+        // Change color of paragraph in footer
+        color: $text-light;
     }
     a {
         img {
-            // Make logo in footer as tall as heading (h5)
+            // Make logo in footer as tall as heading
             height: calc(2px + 2ex + 2px) !important;
             width: auto !important;
             // Make parent container take only as much height as needed
@@ -19,6 +21,30 @@ footer {
             display: block;
         }
     }
+    // Change color of headings in footer
+    h1, h2, h3, h4, h5, h6 {
+        color: $text-light;
+    }
+    // Change color of content in footer
+    .content {
+        color: $text-light;
+        a {
+            color: $text-light;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+    // Change color of list items in footer
+    .footer-list {
+        a {
+            color: $text-light;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
 
 // Specify explitic values for underline decoration for links
 .content {
@@ -43,10 +69,24 @@ footer {
     font-size: inherit;
 }
 
+// Redefine style of background classes
 .bg-primary {
     background-color: $color-primary !important;
+    ::selection {
+        background-color: $text-light;
+        color: $color-primary;
+    }
 }
-
 .bg-secondary {
     background-color: $color-secondary !important;
+    ::selection {
+        background-color: $text-light;
+        color: $color-secondary;
+    }
+}
+
+// This class can be used to turn image color to $text-light (assuming
+// $text-light is a shade of grey)
+.filter-light {
+    filter: brightness(0) invert(1) brightness(#{lightness($text-light)});
 }
