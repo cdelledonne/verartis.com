@@ -79,7 +79,7 @@ dark_text_color = "#CBCBCB"
 text_dark = "#222222"
 dark_text_dark = "#FFFFFF"
 
-# [seems unused]
+# Color of text in footer
 text_light = "#CCCCCC"
 dark_text_light = "#959595"
 
