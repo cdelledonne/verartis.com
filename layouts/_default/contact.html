@@ -9,34 +9,41 @@
                 <div class="content">{{ .Content }}</div>
             </div>
             <div class="col-lg-6">
-                <form method="POST" class="row g-4" action="{{ site.Params.contact_form_action | safeURL }}">
-                    <!-- Set template for form reaction email -->
-                    <input type="hidden" name="_template" value="box">
-                    <!-- Set redirection page -->
+                <form id="contact-form" method="POST" class="row g-4" action="{{ site.Params.contact_form_action | safeURL }}">
+                    <!-- Set origin and redirection pages -->
                     <!-- <input type="hidden" name="_next" value="{{ i18n `thank_you_page` | absLangURL }}"> -->
-                    <input type="hidden" name="_next" value="{{ `/` | absLangURL }}">
-                    <!-- Disable Google reCAPTCHA and enable honeypot filter -->
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_origin" value="{{ `/` | absLangURL }}">
+                    <input type="hidden" name="_next_on_success" value="{{ `/` | absLangURL }}">
+                    <input type="hidden" name="_next_on_failure" value="{{ `/` | absLangURL }}">
                     <!-- Firts name -->
                     <div class="col-lg-6">
                         <label class="mb-1" for="fname">{{ i18n "fname" }} <span class="text-danger">*</span></label>
-                        <input class="form-control shadow-none" type="text" name="first_name" placeholder="{{ i18n `fname` }}" required>
+                        <input class="form-control shadow-none" type="text" name="first_name" placeholder="{{ i18n `fname` }}">
                     </div>
                     <!-- Last name -->
                     <div class="col-lg-6">
-                        <label class="mb-1" for="fname">{{ i18n "lname" }} <span class="text-danger">*</span></label>
-                        <input class="form-control shadow-none" type="text" name="last_name" placeholder="{{ i18n `lname` }}" required>
+                        <label class="mb-1" for="lname">{{ i18n "lname" }} <span class="text-danger">*</span></label>
+                        <input class="form-control shadow-none" type="text" name="last_name" placeholder="{{ i18n `lname` }}">
                     </div>
                     <!-- Email address -->
                     <div class="col-lg-12">
                         <label class="mb-1" for="email">{{ i18n "email" }} <span class="text-danger">*</span></label>
-                        <input class="form-control shadow-none" type="email" name="email_address" placeholder="{{ i18n `email` }}" required>
+                        <input class="form-control shadow-none" type="email" name="email_address" placeholder="{{ i18n `email` }}">
                     </div>
                     <!-- Message -->
                     <div class="col-lg-12">
-                        <label class="mb-1" for="email">{{ i18n "message" }} <span class="text-danger">*</span></label>
-                        <textarea class="form-control shadow-none" name="message" rows="4" placeholder="{{ i18n `message` }}" required></textarea>
+                        <label class="mb-1" for="message">{{ i18n "message" }} <span class="text-danger">*</span></label>
+                        <textarea class="form-control shadow-none" name="message" rows="4" placeholder="{{ i18n `message` }}"></textarea>
+                    </div>
+                    <!-- hCaptcha -->
+                    <div class="col-lg-12">
+                        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+                        <label class="mb-1" for="hcaptcha">{{ i18n "captcha" }} <span class="text-danger">*</span></label>
+                        <div class="h-captcha" data-sitekey="{{ site.Params.hcaptcha_sitekey }}"></div>
+                    </div>
+                    <!-- Error message -->
+                    <div class="col-lg-12 d-none" id="contact-form-error">
+                        <span class="text-danger">{{ i18n "form_error" }}</span></label>
                     </div>
                     <!-- Submit button -->
                     <div class="col-lg-12">
