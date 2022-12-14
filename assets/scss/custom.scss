@@ -3,24 +3,64 @@ body {
     line-height: 1.2;
 }
 
-.content a {
-    color: $color-primary;
-    text-underline-offset: 0.15rem;
-    text-decoration-thickness: 1px;
+footer {
+    p {
+        // Make padding of paragraph text in footer the same as that for
+        // clickable list elements
+        padding: 5px 0;
+        // Change color of paragraph in footer
+        color: $text-light;
+    }
+    a {
+        img {
+            // Make logo in footer as tall as heading
+            height: calc(2px + 2ex + 2px) !important;
+            width: auto !important;
+            // Make parent container take only as much height as needed
+            // (https://stackoverflow.com/a/5804278/14956277)
+            display: block;
+        }
+    }
+    // Change color of headings in footer
+    h1, h2, h3, h4, h5, h6 {
+        color: $text-light;
+    }
+    // Change color of content in footer
+    .content {
+        color: $text-light;
+        a {
+            color: $text-light;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+    // Change color of list items in footer
+    .footer-list {
+        a {
+            color: $text-light;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
 }
 
-.content a:hover {
-    color: $color-secondary;
+// Specify colors and explitic values for underline decoration in links
+.content {
+    a {
+        color: $color-primary;
+        text-underline-offset: 0.15rem;
+        text-decoration-thickness: 1px;
+    }
+    a:hover {
+        color: $color-secondary;
+    }
 }
 
-// For feature cards
+// Make border radius of feature cards the same as that for video containers
 .rounded-1 {
     border-radius: 0.8rem !important;
-}
-
-// Size of logo in navigation bar
-.navbar-brand {
-    width: 100px;
 }
 
 // Use default width and font for language toggler in navigation bar
@@ -31,4 +71,26 @@ body {
 .dark .navigation .navbar-light .navbar-toggler {
     width: unset;
     font-size: inherit;
+}
+
+// Redefine style of background classes
+.bg-primary {
+    background-color: $color-primary !important;
+    ::selection {
+        background-color: $text-light;
+        color: $color-primary;
+    }
+}
+.bg-secondary {
+    background-color: $color-secondary !important;
+    ::selection {
+        background-color: $text-light;
+        color: $color-secondary;
+    }
+}
+
+// This class can be used to turn image color to $text-light (assuming
+// $text-light is a shade of grey)
+.filter-light {
+    filter: brightness(0) invert(1) brightness(#{lightness($text-light)});
 }
