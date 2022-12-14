@@ -32,8 +32,10 @@ theme_copyright = true
 copyright = "Copyright © 2022 Ver Artis"
 
 # Contact form action
-# contact_form_action = "https://formspree.io/f/mlevarky"
-contact_form_action = "https://formsubmit.co/13e6d85f07e95fd91d13a2979e34dbbb"
+contact_form_action = "https://api.verartis.com/v1/contactform"
+
+# hCaptcha site key
+hcaptcha_sitekey = "cba967ec-da86-477a-8c30-ddb176201e2e"
 
 # Type of pages to be rendered with a blog view
 blogCategoryType = "category"
@@ -148,3 +150,19 @@ link = "plugins/swiper/swiper-bundle.css"
 # link = "plugins/font-awesome/v6/regular.css"
 # [[params.plugins.css]]
 # link = "plugins/font-awesome/v6/icons.css"
+
+# Default JS plugins
+[[plugins.js]]
+link = "plugins/swiper/swiper-bundle.js"
+[[plugins.js]]
+link = "plugins/webfont/webfont-loader-2.js"
+[[plugins.js]]
+link = "plugins/glightbox.js"
+[[plugins.js]]
+link = "plugins/cookie.js"
+[[plugins.js]]
+link = "plugins/lazy-loader.js"
+
+# Custom JS plugins
+[[plugins.js]]
+link = "plugins/form.js"
