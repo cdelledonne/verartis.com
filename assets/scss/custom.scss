@@ -49,8 +49,12 @@ footer {
 // Specify explitic values for underline decoration for links
 .content {
     a {
+        color: $color-primary;
         text-underline-offset: 0.15rem;
         text-decoration-thickness: 1px;
+    }
+    a:hover {
+        color: $color-secondary;
     }
 }
 
