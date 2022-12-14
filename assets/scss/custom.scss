@@ -3,6 +3,16 @@ body {
     line-height: 1.2;
 }
 
+.content a {
+    color: $color-primary;
+    text-underline-offset: 0.15rem;
+    text-decoration-thickness: 1px;
+}
+
+.content a:hover {
+    color: $color-secondary;
+}
+
 // For feature cards
 .rounded-1 {
     border-radius: 0.8rem !important;
