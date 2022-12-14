@@ -5,7 +5,9 @@
                 <div class="col-lg-6 mx-auto">
                     <h1 class="h2 mb-3">{{ replaceRE " . Ver Artis$" "" .Title | markdownify }}</h1>
                     {{ with .Params.subtitle }}
-                    <p class="mb-0 fw-500">{{ . | markdownify }}</p>
+                    <div class="content">
+                        <p class="mb-0 fw-500">{{ . | markdownify }}</p>
+                    </div>
                     {{ end }}
                 </div>
             </div>
