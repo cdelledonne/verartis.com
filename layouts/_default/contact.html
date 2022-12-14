@@ -11,10 +11,9 @@
             <div class="col-lg-6">
                 <form id="contact-form" method="POST" class="row g-4" action="{{ site.Params.contact_form_action | safeURL }}">
                     <!-- Set origin and redirection pages -->
-                    <!-- <input type="hidden" name="_next" value="{{ i18n `thank_you_page` | absLangURL }}"> -->
                     <input type="hidden" name="_origin" value="{{ `/` | absLangURL }}">
-                    <input type="hidden" name="_next_on_success" value="{{ `/` | absLangURL }}">
-                    <input type="hidden" name="_next_on_failure" value="{{ `/` | absLangURL }}">
+                    <input type="hidden" name="_next_on_success" value="{{ `/formok/` | absLangURL }}">
+                    <input type="hidden" name="_next_on_failure" value="{{ `/formerror/` | absLangURL }}">
                     <!-- Firts name -->
                     <div class="col-lg-6">
                         <label class="mb-1" for="fname">{{ i18n "fname" }} <span class="text-danger">*</span></label>
