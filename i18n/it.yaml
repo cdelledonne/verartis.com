@@ -1,12 +1,6 @@
 - id: read_more
   translation: Per saperne di più
 
-- id: read_case_study
-  translation: Leggi il case study completo
-
-- id: view_product
-  translation: Visualizza prodotto
-
 - id: send
   translation: Invia messaggio
 
@@ -18,39 +12,6 @@
 
 - id: by
   translation: di
-
-- id: min_read
-  translation: min Leggi
-
-- id: admin
-  translation: Admin
-
-- id: lets_meet
-  translation: Incontriamoci
-
-- id: prev_case
-  translation: Precedente
-
-- id: next_case
-  translation: Prossima
-
-- id: apply_for_position
-  translation: Candidati per la posizione
-
-- id: view_all_positions
-  translation: Visualizza tutte le posizioni
-
-- id: apply_now
-  translation: Applica ora
-
-- id: share_this_job
-  translation: "Condividi questo lavoro:"
-
-- id: other_jobs
-  translation: Altri lavori
-
-- id: all_jobs
-  translation: Tutti i lavori
 
 - id: fname
   translation: Nome
@@ -67,12 +28,6 @@
 - id: website
   translation: Sito web
 
-- id: organization_size
-  translation: Dimensioni dell'organizzazione (dipendenti)*
-
-- id: region
-  translation: Regione*
-
 - id: message
   translation: Messaggio
 
@@ -82,20 +37,8 @@
 - id: form_error
   translation: Per favore compila tutti i campi obbligatori
 
-- id: submit_now
-  translation: Invia ora
-
-- id: get_demo
-  translation: Ottieni demo
-
-- id: cv_note
-  translation: solo doc, file pdf consentito e la dimensione del file sarà inferiore a 2 MB
-
-- id: upload_cv
-  translation: Carica CV
-
 - id: search_faq
-  translation: Fare clic e cercare FAQ..
+  translation: Cerca FAQ...
 
 - id: thank_you_page
   translation: grazie
