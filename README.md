@@ -12,12 +12,7 @@ premium theme. Once downloaded and unpacked, it must be added as a submodule:
 git submodule add file:///path/to/bigspring themes/bigspring
 ```
 
-## Hugo modules
+## Usage
 
-To update the Hugo modules the theme depends on, run:
-
-```sh
-hugo mod clean
-hugo mod get -u
-hugo mod tidy
-```
+To run and deploy the website, update Hugo modules, and for other management
+tasks, use the `run.sh` script. Use `run.sh help` for more information.
