@@ -15,4 +15,4 @@ git submodule add file:///path/to/bigspring themes/bigspring
 ## Usage
 
 To run and deploy the website, update Hugo modules, and for other management
-tasks, use the `run.sh` script. Use `run.sh help` for more information.
+tasks, use the `run.sh` script. Use `./run.sh help` for more information.
