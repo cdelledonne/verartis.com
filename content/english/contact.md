@@ -7,7 +7,8 @@ draft: false
 layout: contact
 ---
 
-If you need any information regarding the services we offer, send us an email or
-fill out the form on this page and we will be happy to help you.
+If you need any information regarding the services we offer, fill out the form
+on this page or send us an email at [info@verartis.com][email]. We will be happy
+yo help you.
 
-* **Mail: info@verartis.com**
+[email]: mailto:info@verartis.com

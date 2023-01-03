@@ -7,7 +7,8 @@ draft: false
 layout: contact
 ---
 
-Se gradisci ricevere informazioni riguardo ai nostri servizi, puoi mandarci una
-email o compilare il form in questa pagina e saremo lieti di aiutarti.
+Se gradisci ricevere informazioni riguardo ai nostri servizi, puoi compilare il
+form in questa pagina oppure mandarci una email a [info@verartis.com][email].
+Saremo lieti di aiutarti.
 
-* **Mail: info@verartis.com**
+[email]: mailto:info@verartis.com
