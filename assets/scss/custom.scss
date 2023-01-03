@@ -46,8 +46,13 @@ footer {
     }
 }
 
-// Specify colors and explitic values for underline decoration in links
 .content {
+    // Use weight 700 for bold fonts (PT Sans does not have weight 500)
+    b, strong {
+        font-weight: 700;
+    }
+
+    // Specify colors and explitic values for underline decoration in links
     a {
         color: $color-primary;
         text-underline-offset: 0.15rem;
