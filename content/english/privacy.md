@@ -11,7 +11,8 @@ This privacy policy explains how we collect, use, and share information about
 you when you visit our website www.[]()verartis.com (the "Website"). By using
 our Website, you agree to the collection, use, and sharing of your information
 as described in this privacy policy. Ver Artis is a business registered in the
-Netherlands. As such, we will abide by the [GDPR][gdpr].
+Netherlands. As such, we will abide by the EU General Data Protection Regulation
+([GDPR][gdpr]).
 
 #### Information we collect
 

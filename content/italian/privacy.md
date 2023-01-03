@@ -12,7 +12,8 @@ condividiamo i tuoi dati personali quando visiti il nostro sito
 www.[]()verartis.com (il "Sito"). Utilizzando il nostro Sito, acconsenti
 all'ottenimento, all'utilizzo e alla condivisione delle tue informazioni come
 descritto in questa informativa sulla privacy. Ver Artis è un'azienda registrata
-nei Paesi Bassi. Pertanto, rispetteremo il regolamento [GDPR][gdpr].
+nei Paesi Bassi. Pertanto, rispetteremo il regolamento generale sulla protezione
+dei dati UE ([GDPR][gdpr]).
 
 ##### Ottenimento dei dati
 
