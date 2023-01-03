@@ -29,7 +29,7 @@ theme_default = "light"  # available options: light, dark, automatic
 
 # Copyright
 theme_copyright = true
-copyright = "Copyright © 2022 Ver Artis"
+copyright = "Copyright © 2022--2023 Ver Artis"
 
 # Contact form action
 contact_form_action = "https://api.verartis.com/v1/contactform"
