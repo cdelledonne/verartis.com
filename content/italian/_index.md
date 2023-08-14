@@ -4,7 +4,7 @@
 ################################################################################
 
 banner:
-  title: Tour culturali nei Paesi Bassi
+  title: Visite guidate a musei e città nei Paesi Bassi
   button:
     enable: false
     label: Scopri di più

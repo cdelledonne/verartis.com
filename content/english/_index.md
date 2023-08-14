@@ -4,7 +4,7 @@
 ################################################################################
 
 banner:
-  title: Cultural tours in the Netherlands
+  title: Guided tours to Dutch museums and cities
   button:
     enable: false
     label: Find out more
