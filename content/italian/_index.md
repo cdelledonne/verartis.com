@@ -4,11 +4,7 @@
 ################################################################################
 
 banner:
-  title: Visite guidate a musei e città nei Paesi Bassi
-  image: images/dutch-arch.svg
-  content: >
-    Lasciati guidare dal nostro team alla scoperta dei meravigliosi musei e
-    delle magnifiche città olandesi
+  title: Tour culturali nei Paesi Bassi
   button:
     enable: false
     label: Scopri di più

@@ -4,11 +4,7 @@
 ################################################################################
 
 banner:
-  title: Museum and city tours in the Netherlands
-  image: images/dutch-arch.svg
-  content: >
-    Let us guide you around the amazing museums and splendid cities of the
-    Netherlands
+  title: Cultural tours in the Netherlands
   button:
     enable: false
     label: Find out more
