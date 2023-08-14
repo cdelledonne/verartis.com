@@ -28,7 +28,7 @@ theme_switcher = false
 theme_default = "light"  # available options: light, dark, automatic
 
 # Copyright
-theme_copyright = true
+theme_copyright = false
 copyright = "Copyright © 2022--2023 Ver Artis"
 
 # Contact form action
