@@ -10,43 +10,6 @@ banner:
     label: Find out more
     link: services/
 
-
-################################################################################
-# Feature cards
-################################################################################
-
-feature:
-  enable: true
-  title: Plan your next guided experience
-  content: >
-    Ver Artis offers a variety of guided museum and city tours, as well as
-    ad-hoc tours.
-  button:
-    enable: true
-    label: Find out more
-    link: services/
-  feature_item:
-  - name: Museum tour
-    icon: fa-solid fa-landmark
-    content: >
-      You can visit for instance the Mauritshuis, the Rijksmuseum or the
-      Kunstmuseum.
-  - name: City tour
-    icon: fa-solid fa-city
-    content: >
-      If you join a planned city tour, you can visit cities like The Hague,
-      Delft, or Rotterdam.
-  - name: Ad-hoc tour
-    icon: fa-solid fa-edit
-    content: >
-      You decide which museum or city to visit and our team will arrange
-      something for you.
-  - name: Combined tour
-    icon: fa-solid fa-lightbulb
-    content: >
-      Would you like to combine a city and a museum? Let us know your
-      preferences.
-      
 ################################################################################
 # Services
 ################################################################################
@@ -54,14 +17,46 @@ feature:
 service:
   enable: true
   service_item:
-  - title: About
+  - title: Tailored tours
     images:
-    - images/profile.png
+    - images/milkmaid.png
+    - images/rijksmuseum.png
+    - images/delft.png
+    - images/viewofdelft.png
+    - images/rotterdam.png
+    - images/thehague.png
     content: >
-      Giulia Montaperto is an art historian who studied history of art in Italy
-      (Milan and Bologna). She first gained experience as a tour guide in Italy,
-      and then she worked in the social media team of museums and galleries in
-      the Netherlands. Since 2021 she has been working for the Mauritshuis as a
-      tour guide and at the service desk. Additionally, she offers private
-      guided tours in museums and cities in the Netherlands.
+      Ver Artis offers engaging guided tours in the Netherlands. Explore iconic
+      museums like the Rijksmuseum, the Mauritshuis and more. Stroll through the
+      beauties of Amsterdam, Rotterdam, The Hague or Delft. Looking for
+      something different? Plan a custom experience. Up for some extra fun? Test
+      your knowledge with a quiz during the tour.
+    button:
+      enable: true
+      label: Find out more
+      link: services/
+
+################################################################################
+# Full-width image
+################################################################################
+
+full_width_image:
+  enable: true
+  image: images/screenshot.svg
+
+################################################################################
+# Call to action
+################################################################################
+
+call_to_action:
+  enable: true
+  title: Ready for your next guided experience?
+  content: >
+    Ver Artis is your gateway to guided tours in the Netherlands. Don't hesitate
+    to get in touch with us to plan a tour, whether you already know what you
+    would like to see or you are looking for inspiration.
+  button:
+    enable: true
+    label: Contact us
+    link: contact/
 ---

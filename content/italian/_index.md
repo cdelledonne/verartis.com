@@ -10,43 +10,6 @@ banner:
     label: Scopri di più
     link: servizi/
 
-
-################################################################################
-# Feature cards
-################################################################################
-
-feature:
-  enable: true
-  title: Pianifica la tua prossima esperienza guidata
-  content: >
-    Ver Artis offre una varietà di tour guidati (museali e cittadini), così come
-    tour ad hoc, pensati per te.
-  button:
-    enable: true
-    label: Scopri di più
-    link: servizi/
-  feature_item:
-  - name: Tour museale
-    icon: fa-solid fa-landmark
-    content: >
-      Potrai visitare per esempio il Mauritshuis, il Rijksmuseum o il
-      Kunstmuseum.
-  - name: Tour cittadino
-    icon: fa-solid fa-city
-    content: >
-      Se vuoi prenotare un tour cittadino, potrai visitare stupende città come
-      L'Aia, Delft o Rotterdam.
-  - name: Tour ad hoc
-    icon: fa-solid fa-edit
-    content: >
-      Tu decidi cosa vedere (città o museo) e il nostro team ti organizzerà un
-      tour guidato.
-  - name: Tour combinato
-    icon: fa-solid fa-lightbulb
-    content: >
-      Ti piacerebbe combinare una città e un museo nello stesso tour? Faccelo
-      sapere.
-      
 ################################################################################
 # Services
 ################################################################################
@@ -54,14 +17,46 @@ feature:
 service:
   enable: true
   service_item:
-  - title: About
+  - title: Tour su misura
     images:
-    - images/profile.png
+    - images/milkmaid.png
+    - images/rijksmuseum.png
+    - images/delft.png
+    - images/viewofdelft.png
+    - images/rotterdam.png
+    - images/thehague.png
     content: >
-      Giulia Montaperto è una storica dell'arte che ha studiato storia dell'arte
-      in Italia (Milano e Bologna). Ha mosso i primi passi come guida turistica
-      in Italia, ha poi lavorato nei Paesi Bassi all'interno di team social
-      media di musei e gallerie d'arte. Dal 2021 lavora per il Mauritshuis come
-      guida turistica e all'accoglienza. Inoltre, offre visite guidate private
-      in musei e città nei Paesi Bassi.
+      Ver Artis offre visite guidate interattive nei Paesi Bassi. Esplora musei
+      iconici come il Rijksmuseum, il Mauritshuis e altri. Passeggia tra le
+      bellezze di Amsterdam, Rotterdam, L'Aia o Delft. Cerchi qualcosa di
+      diverso? Pianifica un'esperienza personalizzata. Vuoi renderla più
+      divertente? Testa le tue conoscenze con un quiz durante il tour.
+    button:
+      enable: true
+      label: Scopri di più
+      link: servizi/
+
+################################################################################
+# Full-width image
+################################################################################
+
+full_width_image:
+  enable: true
+  image: images/screenshot.svg
+
+################################################################################
+# Call to action
+################################################################################
+
+call_to_action:
+  enable: true
+  title: Pronto per la tua esperienza guidata?
+  content: >
+    Ver Artis è la tua porta d'accesso alle visite guidate nei Paesi Bassi. Non
+    esitare a contattarci per pianificare un tour, sia che tu sappia già cosa ti
+    piacerebbe vedere o che stia cercando ispirazione.
+  button:
+    enable: true
+    label: Contattaci
+    link: contatti/
 ---
