@@ -64,21 +64,21 @@ color_primary = "#1C6336"
 color_secondary = "#710C36"
 
 # Color of the background of main sections (light theme / dark theme)
-body_color = "#FFFFFF"
+body_color = "#FEFAEF"
 dark_body_color = "#1E262C"
 # body_color = "#FFF5E4"
 
 # Color of the background of alternate sections (light theme / dark theme)
-light = "#EDF6F5"
+light = "#1B2229"
 dark = "#1B2229"
 # light = "#FFF5E4"
 
 # Color of main text (light theme / dark theme)
-text_color = "#777777"
+text_color = "#6B6248"
 dark_text_color = "#CBCBCB"
 
 # Color of headers and menu titles (light theme / dark theme)
-text_dark = "#222222"
+text_dark = "#710C36"
 dark_text_dark = "#FFFFFF"
 
 # Color of text in footer

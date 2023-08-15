@@ -1,4 +1,6 @@
-$navbar-height: 120px;
+$nav-link-color: #1C6336;
+
+$navbar-height: 112px;
 $banner-padding: 100px;
 $banner-padding-small: 80px;
 $banner-min-height: 600px;
@@ -68,7 +70,7 @@ footer {
         text-underline-offset: 0.15rem;
         text-decoration-thickness: 1px;
         // Add background to links (only visible on hover)
-        background-image: linear-gradient(120deg, $color-secondary 0%, $color-secondary 100%);
+        background-image: linear-gradient(120deg, $color-primary 0%, $color-primary 100%);
         background-repeat: no-repeat;
         background-size: 100% 0;
         background-position: 0 100%;
@@ -85,12 +87,24 @@ footer {
 .navigation {
     min-height: $navbar-height;
     .nav-item {
+        .nav-link {
+            color: $nav-link-color !important;
+        }
+        .nav-link:hover,
+        &.active .nav-link {
+            color: $color-secondary !important;
+        }
         .nav-link-light,
         &.active .nav-link-light {
             color: $text-light !important;
         }
         .nav-link-light:hover {
             color: $white !important;
+        }
+    }
+    .dropdown-menu {
+        .dropdown-item {
+            color: $nav-link-color !important;
         }
     }
     .selector-light, .toggler-light {
@@ -129,6 +143,12 @@ footer {
 // Make border radius of feature cards the same as that for video containers
 .rounded-1 {
     border-radius: 0.8rem !important;
+}
+
+
+// Reset negative offset of swiper
+.swiper-horizontal > .swiper-pagination-bullets {
+  bottom: 0;
 }
 
 // Use default width and font for language toggler in navigation bar
