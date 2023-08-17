@@ -1,8 +1,10 @@
 ---
+
 title: Informativa sulla privacy | Ver Artis
 description: Informativa sulla privacy per sito web e servizi di Ver Artis
 translationKey: privacy
 draft: false
+
 ---
 
 **Ultimo aggiornamento: 3 gennaio 2023**

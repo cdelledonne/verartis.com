@@ -1,8 +1,10 @@
 ---
+
 title: Privacy policy | Ver Artis
 description: Privacy policy for Ver Artis's website and services
 translationKey: privacy
 draft: false
+
 ---
 
 **Last updated: January 3, 2023**

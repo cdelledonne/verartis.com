@@ -1,15 +1,13 @@
-<section class="section pb-0">
-    <div class="container text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <h1 class="h2 mb-3">{{ replaceRE " . Ver Artis$" "" .Title | markdownify }}</h1>
-                    {{ with .Params.subtitle }}
-                    <div class="content">
-                        <p class="mb-0 fw-500">{{ . | markdownify }}</p>
-                    </div>
-                    {{ end }}
+<section class="section pb-0 pt-5">
+    <div class="container text-lg-center text-start">
+        <div class="row">
+            <div class="col-lg-6 mx-lg-auto mx-0">
+                <h2 class="h2 mb-0">{{ replaceRE " . Ver Artis$" "" .Title | markdownify }}</h2>
+                {{ with .Params.subtitle }}
+                <div class="content">
+                    <p class="mb-0 fw-500">{{ . | markdownify }}</p>
                 </div>
+                {{ end }}
             </div>
         </div>
     </div>
