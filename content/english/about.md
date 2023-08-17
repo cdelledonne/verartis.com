@@ -21,7 +21,7 @@ intro:
     opportunity to start Ver Artis.
     </p>
     <p>
-    Navigating art and history can be time consuming. With our tours, we hope to
+    Navigating art and history can be time-consuming. With our tours, we hope to
     bring you closer to the delightful artistic landscape in the Netherlands.
     Nevertheless, we know how boring a one-sided lecture can be. We try to keep
     our tours accurate but lightweight. Engagement and interactivity are our
