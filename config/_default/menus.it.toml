@@ -54,7 +54,7 @@ url = "chi-siamo/"
 [[footer_middle]]
 name = "Contatti"
 weight = 3
-url = "team/"
+url = "contatti/"
 
 [[footer_right]]
 name = "FAQ"
