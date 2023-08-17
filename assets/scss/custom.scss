@@ -1,10 +1,16 @@
 $nav-link-color: #1C6336;
-
 $navbar-height: 112px;
+
 $banner-padding: 100px;
 $banner-padding-small: 80px;
 $banner-min-height: 600px;
 $media-max-height-for-padding-small: $navbar-height + $banner-min-height;
+
+$section-padding: 4.5rem;
+$bs-spacing-4: 1.5rem;
+
+$circle-width: 26px;
+$line-width: 2px;
 
 body {
     font-family: $font-secondary;
@@ -145,10 +151,80 @@ footer {
     border-radius: 0.8rem !important;
 }
 
-
 // Reset negative offset of swiper
 .swiper-horizontal > .swiper-pagination-bullets {
   bottom: 0;
+}
+
+// Modified vertical section padding
+.section {
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+}
+
+// Fix drawing of circles and threading lines in how-it-works layout
+.how-it-works {
+    .block {
+        // Fix calculations for top position and height of threading line
+        &::after {
+            top: calc(var(--bs-gutter-y) - #{$section-padding});
+            height: calc(100% + 2 * #{$section-padding} - var(--bs-gutter-y));
+        }
+        // Fix calculations for position and size of circles
+        .section-title::after {
+            height: $circle-width;
+            width: $circle-width;
+            top: 0.5ex;
+            left: calc(-1 * (var(--bs-gutter-x) * .5 + #{$bs-spacing-4}) - #{$circle-width} / 2);
+        }
+        &.block-right-image .section-title::after {
+            right: calc(-1 * (var(--bs-gutter-x) * .5 + #{$bs-spacing-4}) - #{$circle-width} / 2);
+        }
+    }
+    &.first-element {
+        // Remove threading line at the first element
+        .block {
+            &::after {
+                height: 0;
+                width: 0;
+            }
+        }
+        // And draw a special threading line that starts just below the section
+        // title (top: 1ex) and extends infinitely (height: 1000px)
+        .section-title::before {
+            height: 1000px;
+            width: $line-width;
+            top: 1ex;
+            bottom: unset;
+            right: calc(-1 * (var(--bs-gutter-x) * .5 + #{$bs-spacing-4} + #{$line-width} / 2));
+            background-color: rgba($color-primary, 0.2);
+            @include desktop {
+                display: none;
+            }
+        }
+    }
+    &.last-element {
+        // Remove threading line at the last element
+        .block {
+            &::after {
+                height: 0;
+                width: 0;
+            }
+        }
+        // And draw a special threading line that ends just above the section
+        // title (bottom: 1ex) and extends infinitely (height: 1000px)
+        .section-title::before {
+            height: 1000px;
+            width: $line-width;
+            top: unset;
+            bottom: 1ex;
+            left: calc(-1 * (var(--bs-gutter-x) * .5 + #{$bs-spacing-4} + #{$line-width} / 2));
+            background-color: rgba($color-primary, 0.2);
+            @include desktop {
+                display: none;
+            }
+        }
+    }
 }
 
 // Use default width and font for language toggler in navigation bar
