@@ -27,34 +27,34 @@ weight = 4
 ################################################################################
 
 [[footer_left]]
-name = "About us"
-weight = 1
-url = "about/"
-
-[[footer_left]]
-name = "Our team"
-weight = 2
-url = "team/"
-
-[[footer_left]]
-name = "Stories"
-weight = 3
-url = "stories/"
-
-[[footer_middle]]
 name = "Museum tours"
 weight = 1
 url = "services/"
 
-[[footer_middle]]
+[[footer_left]]
 name = "City tours"
 weight = 2
 url = "services/"
 
-[[footer_middle]]
-name = "Ad-hoc tours"
+[[footer_left]]
+name = "Custom tours"
 weight = 3
 url = "services/"
+
+[[footer_middle]]
+name = "Stories"
+weight = 1
+url = "stories/"
+
+[[footer_middle]]
+name = "About us"
+weight = 2
+url = "about/"
+
+[[footer_middle]]
+name = "Contact"
+weight = 3
+url = "team/"
 
 [[footer_right]]
 name = "FAQ"
@@ -62,11 +62,11 @@ weight = 1
 url = "faq/"
 
 [[footer_right]]
-name = "Privacy policy"
+name = "Terms & conditions"
 weight = 2
-url = "privacy/"
+url = "conditions/"
 
 [[footer_right]]
-name = "Terms & conditions"
+name = "Privacy policy"
 weight = 3
-url = "conditions/"
+url = "privacy/"

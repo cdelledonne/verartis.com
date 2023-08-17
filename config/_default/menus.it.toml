@@ -27,34 +27,34 @@ weight = 4
 ################################################################################
 
 [[footer_left]]
-name = "Chi siamo"
-weight = 1
-url = "chi-siamo/"
-
-[[footer_left]]
-name = "Il nostro team"
-weight = 2
-url = "team/"
-
-[[footer_left]]
-name = "Storie"
-weight = 3
-url = "storie/"
-
-[[footer_middle]]
 name = "Tour al museo"
 weight = 1
 url = "servizi/"
 
-[[footer_middle]]
+[[footer_left]]
 name = "Tour in città"
 weight = 2
 url = "servizi/"
 
-[[footer_middle]]
-name = "Tour ad hoc"
+[[footer_left]]
+name = "Tour personalizzati"
 weight = 3
 url = "servizi/"
+
+[[footer_middle]]
+name = "Storie"
+weight = 1
+url = "storie/"
+
+[[footer_middle]]
+name = "Chi siamo"
+weight = 2
+url = "chi-siamo/"
+
+[[footer_middle]]
+name = "Contatti"
+weight = 3
+url = "team/"
 
 [[footer_right]]
 name = "FAQ"
@@ -62,11 +62,11 @@ weight = 1
 url = "faq/"
 
 [[footer_right]]
-name = "Informativa privacy"
+name = "Termini & condizioni"
 weight = 2
-url = "privacy/"
+url = "condizioni/"
 
 [[footer_right]]
-name = "Termini & condizioni"
+name = "Informativa privacy"
 weight = 3
-url = "condizioni/"
+url = "privacy/"

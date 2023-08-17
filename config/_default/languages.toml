@@ -4,8 +4,9 @@ languageCode = "en-US"
 contentDir = "content/english"
 weight = 1
 title = "Ver Artis | Museum and city tours in the Netherlands"
-footer_menu_left = "Company"
-footer_menu_middle = "Services"
+[en.params]
+footer_menu_left = "Services"
+footer_menu_middle = "Company"
 footer_menu_right = "Support"
 footer_content = """
 KvK 77548175<br>
@@ -17,7 +18,7 @@ Copyright © 2022--2023 Ver Artis |
 Website powered by [Hugo](https://gohugo.io/)
 """
 # SEO meta data for OpenGraph / Twitter Card
-[en.metadata]
+[en.params.metadata]
 author = "Ver Artis"
 image = "images/logo-wb.png"
 description = "Guided tours in museums and cities in the Netherlands"
@@ -34,8 +35,9 @@ languageCode = "it-IT"
 contentDir = "content/italian"
 weight = 2
 title = "Ver Artis | Visite guidate a musei e città nei Paesi Bassi"
-footer_menu_left = "Azienda"
-footer_menu_middle = "Servizi"
+[it.params]
+footer_menu_left = "Servizi"
+footer_menu_middle = "Azienda"
 footer_menu_right = "Supporto"
 footer_content = """
 KvK 77548175<br>
@@ -47,7 +49,7 @@ Copyright © 2022--2023 Ver Artis |
 Website powered by [Hugo](https://gohugo.io/)
 """
 # SEO meta data for OpenGraph / Twitter Card
-[it.metadata]
+[it.params.metadata]
 author = "Ver Artis"
 image = "images/logo-wb.png"
 description = "Visite guidate a musei e città nei Paesi Bassi"
