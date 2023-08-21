@@ -20,12 +20,11 @@ service:
   service_item:
   - title: Tour su misura
     images:
-    - images/milkmaid.png
-    - images/rijksmuseum.png
     - images/delft.png
-    - images/viewofdelft.png
-    - images/rotterdam.png
+    - images/milkmaid.png
     - images/thehague.png
+    - images/anatomy.png
+    - images/rotterdam.png
     content: >
       Ver Artis offre visite guidate interattive nei Paesi Bassi. Esplora musei
       iconici come il Rijksmuseum, il Mauritshuis e altri. Passeggia tra le
@@ -51,7 +50,7 @@ full_width_image:
 
 call_to_action:
   enable: true
-  title: Pronto per la tua esperienza guidata?
+  title: La tua prossima esperienza guidata
   content: >
     Ver Artis è la tua porta d'accesso alle visite guidate nei Paesi Bassi. Non
     esitare a contattarci per pianificare un tour, sia che tu sappia già cosa ti

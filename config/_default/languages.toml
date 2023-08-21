@@ -15,7 +15,9 @@ The Hague, The Netherlands
 """
 copyright = """
 Copyright © 2022--2023 Ver Artis |
-Website powered by [Hugo](https://gohugo.io/)
+Website powered by [Hugo](https://gohugo.io/) |
+Vector image adapted from work by macrovector on
+[Freepik](https://www.freepik.com/free-vector/people-museum-flat-set-guides-conducting-excursion-visitors-photographing-looking-exhibit-isolated-vector-illustration_26765448.htm)
 """
 # SEO meta data for OpenGraph / Twitter Card
 [en.params.metadata]
@@ -46,7 +48,9 @@ L'Aia, Paesi Bassi
 """
 copyright = """
 Copyright © 2022--2023 Ver Artis |
-Website powered by [Hugo](https://gohugo.io/)
+Website powered by [Hugo](https://gohugo.io/) |
+Vector image adapted from work by macrovector on
+[Freepik](https://www.freepik.com/free-vector/people-museum-flat-set-guides-conducting-excursion-visitors-photographing-looking-exhibit-isolated-vector-illustration_26765448.htm)
 """
 # SEO meta data for OpenGraph / Twitter Card
 [it.params.metadata]

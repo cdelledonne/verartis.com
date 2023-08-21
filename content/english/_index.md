@@ -20,15 +20,14 @@ service:
   service_item:
   - title: Tailored tours
     images:
-    - images/milkmaid.png
-    - images/rijksmuseum.png
     - images/delft.png
-    - images/viewofdelft.png
-    - images/rotterdam.png
+    - images/milkmaid.png
     - images/thehague.png
+    - images/anatomy.png
+    - images/rotterdam.png
     content: >
       Ver Artis offers engaging guided tours in the Netherlands. Explore iconic
-      museums like the Rijksmuseum, the Mauritshuis and more. Stroll through the
+      museums like the Rijksmuseum, the Mauritshuis and more. Walk through the
       beauties of Amsterdam, Rotterdam, The Hague or Delft. Looking for
       something different? Plan a custom experience. Up for some extra fun? Test
       your knowledge with a quiz during the tour.
@@ -43,7 +42,13 @@ service:
 
 full_width_image:
   enable: true
-  image: images/screenshot.svg
+  image: images/museumart-xl.svg
+  source:
+    responsive: true
+    image-sm: images/museumart-sm.svg
+    image-md: images/museumart-md.svg
+    image-lg: images/museumart-lg.svg
+    image-xl: images/museumart-xl.svg
 
 ################################################################################
 # Call to action
@@ -51,7 +56,7 @@ full_width_image:
 
 call_to_action:
   enable: true
-  title: Ready for your next guided experience?
+  title: Your next guided experience
   content: >
     Ver Artis is your gateway to guided tours in the Netherlands. Don't hesitate
     to get in touch with us to plan a tour, whether you already know what you

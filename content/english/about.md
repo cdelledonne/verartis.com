@@ -15,8 +15,8 @@ intro:
   content: >
     <p>
     Ver Artis was founded by Giulia Montaperto after she moved to the
-    Netherlands from Italy. Giulia loves art. Giulia knows art. Giulia enjoys
-    sharing her knowledge and experience with people. That, combined with the
+    Netherlands from Italy. Giulia knows art. Giulia loves art. Giulia enjoys
+    sharing her knowledge and experiences with people. That, combined with the
     sheer amount of art and museums in the Nerherlands, made it a great
     opportunity to start Ver Artis.
     </p>

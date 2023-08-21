@@ -51,16 +51,15 @@
                 <!-- Language selector -->
                 {{ if .IsTranslated }}
                 <select class="ms-3 border-0 d-inline-block {{ if $.IsHome}} selector-light {{ end }}" id="select-language" onchange="location = this.value;">
-                    {{ $siteLanguages := site.Languages}}
-                    {{ $pageLang := .Page.Lang}}
+                    {{ $siteLanguages := site.Languages }}
+                    {{ $pageLang := .Page.Lang }}
                     {{ range .Page.AllTranslations }}
-                    {{ $translation := .}}
+                    {{ $translation := . }}
                     {{ range $siteLanguages }}
                     {{ if eq $translation.Lang .Lang }}
                     {{ $selected := false }}
-                    {{ if eq $pageLang .Lang}}
-                    <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
-                    </option>
+                    {{ if eq $pageLang .Lang }}
+                    <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}</option>
                     {{ else }}
                     <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
                     {{ end }}

@@ -16,7 +16,7 @@ intro:
   content: >
     Ver Artis is your passport to Dutch delights. We offer guided tours to
     majestic museums and picturesque cities in the Netherlands. Explore our
-    services and plan your next experience!
+    services and plan your next experience.
   # video:
   #   url: "https://www.youtube.com/embed/dyZcRRWiuuw"
   #   thumbnail: "images/products/01.jpg"
@@ -31,9 +31,9 @@ how_it_works:
   - title: Museum tours
     image: images/giuliaatmh.png
     content: >
-      Stroll through the history of art at the Rijksmuseum. Immerse yourself in
-      Flemish masterpieces at the Mauritshuis. Challenge your perspective at the
-      Kunsthal. The Netherlands is brimming with art at every corner.
+      Stroll through art history at the Rijksmuseum. Immerse yourself in Dutch
+      masterpieces at the Mauritshuis. Challenge your perspective at the
+      Kunstmuseum. The Netherlands is brimming with art at every corner.
     # button:
     #   link: services/
     #   label: Discover museum tours
@@ -63,7 +63,13 @@ how_it_works:
 
 full_width_image:
   enable: true
-  image: images/screenshot.svg
+  image: images/museumart-xl.svg
+  source:
+    responsive: true
+    image-sm: images/museumart-sm.svg
+    image-md: images/museumart-md.svg
+    image-lg: images/museumart-lg.svg
+    image-xl: images/museumart-xl.svg
 
 ################################################################################
 # Call to action
@@ -71,7 +77,7 @@ full_width_image:
 
 call_to_action:
   enable: true
-  title: Ready to plan your experience?
+  title: Plan your experience
   content: >
     Whether you've got a clear vision or you're seeking inspiration, we're ready
     to craft a tour that meets your needs. Reach out to us!
