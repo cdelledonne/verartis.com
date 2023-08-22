@@ -20,11 +20,11 @@ service:
   service_item:
   - title: Tour su misura
     images:
-    - images/home/delft.png
-    - images/home/milkmaid.png
-    - images/home/thehague.png
-    - images/home/anatomy.png
-    - images/home/rotterdam.png
+    - images/home/delft.webp
+    - images/home/milkmaid.webp
+    - images/home/thehague.webp
+    - images/home/anatomy.webp
+    - images/home/rotterdam.webp
     content: >
       Ver Artis offre visite guidate interattive nei Paesi Bassi. Esplora musei
       iconici come il Rijksmuseum, il Mauritshuis e altri. Passeggia tra le

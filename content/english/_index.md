@@ -20,11 +20,11 @@ service:
   service_item:
   - title: Tailored tours
     images:
-    - images/home/delft.png
-    - images/home/milkmaid.png
-    - images/home/thehague.png
-    - images/home/anatomy.png
-    - images/home/rotterdam.png
+    - images/home/delft.webp
+    - images/home/milkmaid.webp
+    - images/home/thehague.webp
+    - images/home/anatomy.webp
+    - images/home/rotterdam.webp
     content: >
       Ver Artis offers engaging guided tours in the Netherlands. Explore iconic
       museums like the Rijksmuseum, the Mauritshuis and more. Walk through the

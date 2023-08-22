@@ -29,7 +29,7 @@ how_it_works:
   enable : true
   blocks:
   - title: Museum tours
-    image: images/services/giuliaatmh.png
+    image: images/services/giuliaatmh.webp
     content: >
       Stroll through art history at the Rijksmuseum. Immerse yourself in Dutch
       masterpieces at the Mauritshuis. Challenge your perspective at the
@@ -38,20 +38,20 @@ how_it_works:
     #   link: services/
     #   label: Discover museum tours
   - title: City tours
-    image: images/services/rotterdam-2.png
+    image: images/services/rotterdam-2.webp
     content: >
       Up for some city vibes instead? Take a leisurely jaunt through the
       picturesque streets of Amsterdam or Delft. Admire the countless
       institutional buildings in The Hague. Or try to make a sense of the
       bizarre architecture in Rotterdam.
   - title: Custom tours
-    image: images/services/combo.png
+    image: images/services/combo.webp
     content: >
       Feeling adventurous? Or just very undecided? Let's plan a tailor-made
       experience together. Mix and match your favorite museums, combine a few
       city tours, or come up with any other extravagant combination.
   - title: Quiz
-    image: images/services/quiz.png
+    image: images/services/quiz.webp
     content: >
       Feel like spicing things up with a dash of challenge? Add a quiz to test
       your wits as you explore, and who knows, you might just become the

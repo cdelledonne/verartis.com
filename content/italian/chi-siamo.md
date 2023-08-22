@@ -39,7 +39,7 @@ team:
     designation: >
       Giulia è una storica dell'arte e guida turistica. Ama parlare e crede
       persino di essere divertente. È anche molto affezionata alle sue piantine.
-    image: images/about/giulia.jpg
+    image: images/about/giulia.webp
     # social_profile:
     # - name: Facebook
     #   icon: fab fa-facebook
@@ -54,7 +54,7 @@ team:
     designation: >
       Carlo è un ingegnere di sistemi embedded. Sussurra ai computer, ma non
       vuole che si pensi che sia un nerd assoluto. Ci capisce qualcosa di arte.
-    image: images/about/carlo.jpg
+    image: images/about/carlo.webp
     # social_profile:
     # - name: Facebook
     #   icon: fab fa-facebook

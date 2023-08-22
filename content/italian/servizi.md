@@ -29,7 +29,7 @@ how_it_works:
   enable : true
   blocks:
   - title: Tour al museo
-    image: images/services/giuliaatmh.png
+    image: images/services/giuliaatmh.webp
     content: >
       Attraversa la storia dell'arte al Rijksmuseum. Immergiti nei capolavori
       olandesi al Mauritshuis. Osserva l'arte da un'altra prospettiva al
@@ -38,20 +38,20 @@ how_it_works:
     #   link: services/
     #   label: Discover museum tours
   - title: Tour in città
-    image: images/services/rotterdam-2.png
+    image: images/services/rotterdam-2.webp
     content: >
       Preferisci l'atmosfera della città? Concediti una gita spensierata nelle
       strade pittoresche di Amsterdam o Delft. Ammira gli innumerevoli edifici
       istituzionali dell'Aia. Oppure prova a dare un senso alla curiosa
       architettura di Rotterdam.
   - title: Tour personalizzati
-    image: images/services/combo.png
+    image: images/services/combo.webp
     content: >
       Cerchi qualcosa di diverso? O non riesci a decidere? Pianifichiamo
       un'esperienza su misura insieme. Scegli i tuoi musei preferiti, abbina un
       tour cittadino, o dai spazio alla tua fantasia e crea una combo originale.
   - title: Quiz
-    image: images/services/quiz.png
+    image: images/services/quiz.webp
     content: >
       Hai voglia di aggiungere un pizzico di sfida? Cimentati in un quiz per
       mettere alla prova le tue conoscenze durante il tour e scala la classifica
