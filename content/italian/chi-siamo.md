@@ -39,7 +39,7 @@ team:
     designation: >
       Giulia è una storica dell'arte e guida turistica. Ama parlare e crede
       persino di essere divertente. È anche molto affezionata alle sue piantine.
-    image: images/giulia.jpg
+    image: images/about/giulia.jpg
     # social_profile:
     # - name: Facebook
     #   icon: fab fa-facebook
@@ -53,8 +53,8 @@ team:
   - name: Carlo Delle Donne
     designation: >
       Carlo è un ingegnere di sistemi embedded. Sussurra ai computer, ma non
-      vuole che si pensi che sia un nerd assoluto. Riesce ad elaborare l'arte.
-    image: images/carlo.jpg
+      vuole che si pensi che sia un nerd assoluto. Ci capisce qualcosa di arte.
+    image: images/about/carlo.jpg
     # social_profile:
     # - name: Facebook
     #   icon: fab fa-facebook

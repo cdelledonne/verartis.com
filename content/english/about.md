@@ -40,7 +40,7 @@ team:
       Giulia is an art historian and a tour guide. She loves talking to people
       and she even thinks she's funny. She is also very fond of her house
       plants.
-    image: images/giulia.jpg
+    image: images/about/giulia.jpg
     # social_profile:
     # - name: Facebook
     #   icon: fab fa-facebook
@@ -55,7 +55,7 @@ team:
     designation: >
       Carlo is an embedded systems engineer. He can whisper to computers, but he
       doesn't want you to think he's a total nerd. He can process art.
-    image: images/carlo.jpg
+    image: images/about/carlo.jpg
     # social_profile:
     # - name: Facebook
     #   icon: fab fa-facebook
