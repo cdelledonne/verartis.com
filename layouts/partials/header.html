@@ -50,7 +50,7 @@
             <div class="d-flex justify-content-end order-lg-1 order-0 w-50">
                 <!-- Language selector -->
                 {{ if .IsTranslated }}
-                <select class="ms-3 border-0 d-inline-block {{ if $.IsHome}} selector-light {{ end }}" id="select-language" onchange="location = this.value;">
+                <select class="ms-3 border-0 d-inline-block {{ if $.IsHome}} selector-light {{ else }} selector-color {{ end }}" id="select-language" onchange="location = this.value;">
                     {{ $siteLanguages := site.Languages }}
                     {{ $pageLang := .Page.Lang }}
                     {{ range .Page.AllTranslations }}
@@ -70,7 +70,7 @@
                 {{ end }}
 
                 <!-- Hamburger menu that only appears on narrow screen -->
-                <button class="navbar-toggler ms-3 border-0 {{ if $.IsHome }} toggler-light {{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler ms-3 border-0 {{ if $.IsHome }} toggler-light {{ else }} toggler-color {{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
