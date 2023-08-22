@@ -114,6 +114,9 @@ footer {
             color: $nav-link-color !important;
         }
     }
+    .selector-color, .toggler-color {
+        color: $color-primary !important;
+    }
     .selector-light, .toggler-light {
         color: $text-light !important;
     }
@@ -130,11 +133,10 @@ footer {
     height: calc(100vh - #{$navbar-height});
     min-height: $banner-min-height;
     background-size: cover;
-    background-image:
-        // linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-        url("/images/windmill.jpg");
     background-position: center right 30%;
     background-repeat: no-repeat;
+    background-image: url("/images/windmill.jpg");
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
 
     h1 {
         color: $color-secondary;
@@ -145,6 +147,15 @@ footer {
         background-color: $color-secondary;
         text-shadow: 0 0 0 white;
     }
+}
+
+.call-to-action-image {
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-clip: content-box;
+    background-origin: content-box;
+    background-image: url("/images/museumart.svg");
 }
 
 // Make border radius of feature cards the same as that for video containers

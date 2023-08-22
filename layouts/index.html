@@ -219,21 +219,13 @@
 {{ end }}
 <!-- /tools_intregrate -->
 
-<!-- full-width image -->
-{{ with .Params.full_width_image }}
-{{ if .enable }}
-<section class="section py-0">
-    <div>
-        {{ partial "image" (dict "Src" .image "Alt" "call to action" "Class" "w-100") }}
-    </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /full-width image -->
-
 <!-- call to action -->
 {{ with .Params.call_to_action }}
 {{ if .enable }}
+<section class="section py-0">
+    <div class="call-to-action-image">
+    </div>
+</section>
 <section class="section">
     <div class="container">
         <div class="row align-items-center justify-content-center text-lg-center text-start">
