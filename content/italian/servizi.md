@@ -70,6 +70,6 @@ call_to_action:
   button:
     enable: true
     label: Contattaci
-    link: contact/
+    link: contatti/
 
 ---
